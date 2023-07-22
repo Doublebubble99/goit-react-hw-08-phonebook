@@ -23,6 +23,7 @@ export default function UserMenu() {
           border="1px"
           borderColor="green.500"
           onClick={() => dispatch(logOut())}
+          type="button"
         >
           Logout
         </Button>
